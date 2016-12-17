@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">dpc</string>
+    <string name="app_name">BYOD Secure</string>
+    <string name="description">BYOD Secure\'s Device Policy Controller</string>
+    <string name="label">BYOD Secure\'s DPC</string>
+    <string name="policiesinactive">Policies disabled</string>
+    <string name="policiesactive">Please enable policies</string>
+    <string name="explanation">Activate this Admin to further secure your device</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="settingsLabel">Settings</string>
+    <string name="enable_policies">Enable Policies</string>
+    <string name="enable_work_profile">Enable Work Profile</string>
+    <string name="workprofileactive">Work Profile enabled</string>
+    <string name="workprofileinactive">Work Profile disabled</string>
+    <string name="disable_policies">Disable Admin</string>
+    <string name="policy_manager">Policy Manager</string>
+    <string name="policy_management">Policy Management</string>
+
 </resources>

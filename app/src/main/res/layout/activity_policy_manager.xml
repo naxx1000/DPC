@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_policy_manager"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cc.byod.p5.dpc.PolicyManager">
+
+    <TextView
+        android:text="Policy status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewActive"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Enable Admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:background="@android:color/holo_red_light"
+        android:padding="10dp"
+        android:onClick="AdminEnable"
+        android:layout_below="@+id/textViewActive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <Button
+        android:text="@string/enable_policies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="PolicyEnable"
+        android:layout_alignTop="@+id/button7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <Button
+        android:text="@string/disable_policies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:onClick="PolicyDisable"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/button7"
+        android:layout_alignStart="@+id/button7"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+</LinearLayout>

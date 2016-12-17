@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_ca62abaef738f7235dafba76b6381bd69f6fc7d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_d4ee4418e26c9cb3a487f62953a51a4ef294b0a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b409a021846371af33ad87494481cf23878a9755">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a4e22f419fda15240953b9fb1b87b62e7625dfd1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_a9d5303bf912fdb3c3a2b9f0e3e0ee40b30ae59a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_1ee19078ecac568eff3c6dce2367f8db2103cd07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_bf159ddd23f9d99e1e2057173a7e015785c36450\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_2846279fca1dfb66d05499be1393db77d5988d85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="01a176da6f00f60da856b2dfc93a04995ac8e5db">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c8976b57f22804e9f97129b4cba704f682dadbcc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_25f7eb1315bf1302c0a849d9fa1033dda1ef223e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_356489c70794edff3122bd0cc27441fb1262a0b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_c85e3f2ba20a2c4407fc309e7b1b5e4f6456bfd5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_5b01d4639627cd6d975a94ccb0777b8befe595c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_954eaffbd31c38b7fa03b827c2cc7b1249e376ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_53aafd0104231c97649068bfc4d2b1ef3a4041cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_5760792e83e13e2906fff86bdafc8730310c77bc\classes.dex" />
+    </item>
+
+</items>
