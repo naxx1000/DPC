@@ -2,9 +2,6 @@
     <uses-policies>
         <limit-password />
         <watch-login />
-        <force-lock />
-        <expire-password />
         <disable-camera />
-        <encrypted-storage />
     </uses-policies>
 </device-admin>
