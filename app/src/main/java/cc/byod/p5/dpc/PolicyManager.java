@@ -16,7 +16,7 @@ public class PolicyManager extends AppCompatActivity {
     ComponentName DeviceAdmin;
     ComponentName DeviceProfile;
     DevicePolicyManager DPM;
-    TextView isPoliciesActive;
+    TextView isAdminActive;
     Button enableAdminButton;
     Button enablePoliciesButton;
     Button disableAdmin;
@@ -25,7 +25,7 @@ public class PolicyManager extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_policy_manager);
-        isPoliciesActive = (TextView)findViewById(R.id.textViewActive);
+        isAdminActive = (TextView)findViewById(R.id.textViewActive);
         enableAdminButton = (Button)findViewById(R.id.button7);
         enablePoliciesButton = (Button)findViewById(R.id.button);
         disableAdmin = (Button)findViewById(R.id.button3);
@@ -37,20 +37,20 @@ public class PolicyManager extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        if (PoliciesActive()) {
-            isPoliciesActive.setText(R.string.policiesactive);
+        if (AdminActive()) {
+            isAdminActive.setText(R.string.policiesactive);
             disableAdmin.setVisibility(View.VISIBLE);
             enableAdminButton.setVisibility(View.INVISIBLE);
             enablePoliciesButton.setVisibility(View.VISIBLE);
         } else {
-            isPoliciesActive.setText(R.string.policiesinactive);
+            isAdminActive.setText(R.string.policiesinactive);
             disableAdmin.setVisibility(View.INVISIBLE);
             enableAdminButton.setVisibility(View.VISIBLE);
             enablePoliciesButton.setVisibility(View.INVISIBLE);
         }
     }
 
-    private boolean PoliciesActive(){
+    private boolean AdminActive(){
         return DPM.isAdminActive(DeviceAdmin);
     }
 
