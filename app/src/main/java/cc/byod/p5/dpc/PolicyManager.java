@@ -65,7 +65,6 @@ public class PolicyManager extends AppCompatActivity {
 
         DPM.setCameraDisabled(DeviceAdmin,true);
         DPM.setPasswordQuality(DeviceAdmin,DevicePolicyManager.PASSWORD_QUALITY_SOMETHING);
-        DPM.setStorageEncryption(DeviceAdmin,true);
 
         // Requests a password change if there is none
         if(!DPM.isActivePasswordSufficient()){
