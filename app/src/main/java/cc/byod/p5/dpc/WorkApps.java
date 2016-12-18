@@ -1,7 +1,6 @@
 package cc.byod.p5.dpc;
 
 import android.content.Intent;
-import android.content.pm.PackageInstaller;
 import android.net.Uri;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
@@ -11,8 +10,6 @@ import android.view.View;
 import java.io.File;
 
 public class WorkApps extends AppCompatActivity {
-
-    PackageInstaller packageInstaller;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
