@@ -72,10 +72,6 @@ public class PolicyManager extends AppCompatActivity {
             startActivity(intent);
         }
 
-        if(DPM.isDeviceOwnerApp(getPackageName())){
-            finish();
-        }
-
         Toast.makeText(this, "Policies are active", Toast.LENGTH_LONG).show();
     }
 
