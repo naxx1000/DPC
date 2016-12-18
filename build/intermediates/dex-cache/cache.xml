@@ -2,58 +2,76 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.1.0_57afd549bc99ba2cfd501261b2eb42a61b0766ff.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
-        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\pre-dexed\release\com.android.support-design-23.1.0_96f1613458a2d2e32525e7c0e36f99100934b549.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\pre-dexed\release\support-annotations-23.1.0_352bae7973ce3431d0057e3aad33427d2db3baf1.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-23.1.0_56f1810fe93c90e05acfb59838c5d1697fd20565.jar" />
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.0_56f1810fe93c90e05acfb59838c5d1697fd20565\classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.1.0_6a46407abfa2d88cb45373a1aefdd37d3dfa07cf.jar" />
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.0_6a46407abfa2d88cb45373a1aefdd37d3dfa07cf\classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ca0b8bcdbaa473e5be69ffb70aea486d87ba3e3d">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c8976b57f22804e9f97129b4cba704f682dadbcc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.0_57afd549bc99ba2cfd501261b2eb42a61b0766ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.0_352bae7973ce3431d0057e3aad33427d2db3baf1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1b1d028c668d15f624a23c6e428ad474765648b7">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a4e22f419fda15240953b9fb1b87b62e7625dfd1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.0_96f1613458a2d2e32525e7c0e36f99100934b549\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\pre-dexed\release\internal_impl-23.1.0_2ed42f3971943b3f550b92ce94a8fe1bfaeb64dc.jar" />
+        <dex dex="D:\AndroidProjects\ProjectsGithub\DPC\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.0_2ed42f3971943b3f550b92ce94a8fe1bfaeb64dc\classes.dex" />
     </item>
 
 </items>

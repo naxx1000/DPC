@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intentGoToSettings);
     }
 
+    public void GoToWorkApps(View view){
+        Intent intentGoToWorkApps = new Intent(this, WorkApps.class);
+        startActivity(intentGoToWorkApps);
+    }
+
 }

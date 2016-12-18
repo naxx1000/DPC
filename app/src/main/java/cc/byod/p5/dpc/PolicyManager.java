@@ -14,6 +14,7 @@ import android.widget.Toast;
 public class PolicyManager extends AppCompatActivity {
 
     ComponentName DeviceAdmin;
+    ComponentName DeviceProfile;
     DevicePolicyManager DPM;
     TextView isPoliciesActive;
     Button enableAdminButton;
@@ -61,6 +62,7 @@ public class PolicyManager extends AppCompatActivity {
     }
 
     public void PolicyEnable(View view){
+
         DPM.setCameraDisabled(DeviceAdmin,true);
         DPM.setPasswordQuality(DeviceAdmin,DevicePolicyManager.PASSWORD_QUALITY_SOMETHING);
         DPM.setStorageEncryption(DeviceAdmin,true);
@@ -69,6 +71,10 @@ public class PolicyManager extends AppCompatActivity {
         if(!DPM.isActivePasswordSufficient()){
             Intent intent = new Intent(DevicePolicyManager.ACTION_SET_NEW_PASSWORD);
             startActivity(intent);
+        }
+
+        if(DPM.isDeviceOwnerApp(getPackageName())){
+            finish();
         }
 
         Toast.makeText(this, "Policies are active", Toast.LENGTH_LONG).show();
